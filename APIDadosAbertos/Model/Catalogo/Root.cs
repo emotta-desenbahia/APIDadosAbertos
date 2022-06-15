@@ -14,8 +14,9 @@ namespace APIDadosAbertos
         public string contatoArea { get; set; }
         public string contatoEmail { get; set; }
         public List<Conjunto> conjuntos { get; set; }
-    }
+        
 
+    }
 
 
 }

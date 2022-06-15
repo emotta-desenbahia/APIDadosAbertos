@@ -39,7 +39,7 @@ namespace APIDadosAbertos.Controllers
             {
                 cnpj = "15.163.587",
                 nome = "Desenbahia Agencia de Fomento do Estado da Bahia",
-                dataUltimaAtualizacao = "2021-12-16",
+                dataUltimaAtualizacao = "2022-04-05",
                 contatoArea = "Gerência de Compliance e Risco",
                 contatoEmail = "gcr@desenbahia.ba.gov.br",
                 conjuntos = new List<Conjunto>()
@@ -61,7 +61,7 @@ namespace APIDadosAbertos.Controllers
                                    nome = "Ano",
                                    valores = new List<string>()
                                    {
-                                      "2020"
+                                      "2020", "2021"
                                    }
                              },
                              periodicidade = "Anual",
@@ -69,7 +69,33 @@ namespace APIDadosAbertos.Controllers
                     },
                     contatoArea = "Gerência de Compliance e Risco",
                     contatoEmail = "gcr@desenbahia.ba.gov.br"
-                    }
+                    },
+
+
+
+                new Conjunto{
+
+                @ref = "https://www.bcb.gov.br/htms/dasfn/canais_atendimento/1.0.1/openapi.json",
+                nome = "Canais de Atendimento",
+                urlBase = "https://wwws.desenbahia.ba.gov.br/dadosabertos/canaisatendimento",
+                urlVisualizacao = "https://dados.desenbahia.ba.gov.br/",
+                situacao = "Produção",
+                recursos = new List<Recurso>()
+                 { 
+                        new Recurso
+                        {
+                            nome = "Obtém a lista de dependências próprias da instituição financeira.",
+                            caminhoRecurso = "/branches",
+
+                        }
+
+                },
+
+                    contatoArea = "Gerência de Marketing e Produtos",
+                    contatoEmail = "gmp@desenbahia.ba.gov.br"
+
+                }
+
 
                 }
             };
