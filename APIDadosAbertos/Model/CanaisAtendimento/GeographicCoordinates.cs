@@ -9,8 +9,5 @@ namespace APIDadosAbertos
     {
         public string latitude { get; set; }
         public string longitude { get; set; }
-    //    public Availability availability { get; set; }
-    //    public Phone phone { get; set; }
-    //    public List<Service> services { get; set; }
     }
 }

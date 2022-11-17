@@ -8,6 +8,7 @@ namespace APIDadosAbertos
     public class PostalAddress
     {
         public string address { get; set; }
+        public string number { get; set; }
         public string districtName { get; set; }
         public string townName { get; set; }
         public string ibgeCode { get; set; }

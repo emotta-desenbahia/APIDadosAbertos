@@ -21,8 +21,6 @@ namespace APIDadosAbertos.Controllers
     [ApiController]
     [Route("[controller]")]
 
-
-
     public class CatalogoController : ControllerBase
     {
 
@@ -75,7 +73,7 @@ namespace APIDadosAbertos.Controllers
 
                 new Conjunto{
 
-                @ref = "https://www.bcb.gov.br/htms/dasfn/canais_atendimento/1.0.1/openapi.json",
+                @ref = "https://www.bcb.gov.br/htms/dasfn/canais_atendimento/2.0.0/openapi.json",
                 nome = "Canais de Atendimento",
                 urlBase = "https://wwws.desenbahia.ba.gov.br/dadosabertos/canaisatendimento",
                 urlVisualizacao = "https://dados.desenbahia.ba.gov.br/",
